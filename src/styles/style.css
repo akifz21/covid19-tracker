@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+#countries-grid{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    column-gap: 50px;
+    row-gap: 50px;
+    
+}
+
+.grid-item{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #EEEE;
+     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transition: all 0.4s;
+}
+
+.grid-item h2{
+    color: black;
+    
+}
+
+.grid-item img{
+    width: 150px;
+    height: 100px;
+}
+
+.grid-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 70px;
+    top: 0;
+    height: 70px;
+    background-color: #2C3333;
+
+}
+
+
+header h1{
+  color: #EEEE;
+  font-size: 1.4rem;
+}
+
+
+#header-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#header-ul li a {
+   color: #EEEE;
+   font-size: 20px;
+   transition:all 0.4s;
+}
+
+#header-ul li a:hover {
+    color: #00ADB5;
+    
+ }
+
+#header-ul li  {
+   padding: 0px 15px;
+ }
+
+
+
+
+
+#container{
+    margin-top: 75px;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#continents{
+    margin-top: 10px;
+    display: grid;
+    padding: 20px 40px; 
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    font-size: 18px;
+}
+
+#global{
+    background-color: #EEEE;
+    
+}
+
+#home button{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    background-color: #2C3333;
+    border: none;
+    color: #EEEE;
+    border-radius: 20px;
+    padding: 9px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#home button:hover{
+    background-color: #EEEE;
+    color: #2C3333;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; ;
+}
+
+#country{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#img-li{
+    text-align: center;
+}
+
+#country ul{
+    padding: 20px;
+    font-size: 20px;
+    width: 50vh;
+    background-color: #F9F7F7;
+}
+
+.active{
+    border-bottom:2px solid #00ADB5;
+}
+
+
+
+
+
+
+
